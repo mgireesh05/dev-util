@@ -451,7 +451,7 @@ class Autoupdate(object):
                                              legacy_image=legacy_image)
 
   def GenerateUpdatePayload(self, board, client_version, static_image_dir,
-                            legacy_image):
+                            legacy_image=True):
     """Generates an update for an image and returns the relative payload dir.
 
     Returns:
